@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#logo {
+  background-color: #222f3e;
+  padding-top: 7px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  height: 20px;
+}
+.navbar {
+  background-color: #364759;
+  padding-block: 7px;
+  padding-left: 25px;
+}
+.navbar a:link {
+  font-size: 14px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+section {
+  background-color: #f56600;
+  color: white;
+  padding: 7px;
+  margin-block: 30px;
+  margin-inline: 30px;
+  text-align: center;
+}
+.giftguides {
+  background-image: url(../images/bg-image.png);
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  padding-block: 50px;
+  margin-inline: 30px;
+  background-position: center top;
+  background-size: contain;
+}
+.giftguides h2 {
+  margin-top: 30px;
+  font-size: 18px;
+}
+.gifts {
+  background-color: white;
+  margin-inline: 30px;
+  margin-block: 20px;
+}
+.gifts img {
+  width: 20%;
+  padding: 20px;
+  margin-left: 40px;
+  border-radius: 30px;
+}
+.gifts h4 {
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.gifts h4 a:link,
+.gaming p a:link,
+.audio p a:link {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #166f77;
+}
+.gaming img,
+.audio img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 97%;
+}
+.gaming p,
+.audio p {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.top {
+  background-color: #364759;
+  padding-block: 20px;
+  text-align: center;
+}
+.top a:link {
+  color: white;
+  font-weight: bold;
+}
+.top a:visited {
+  color: white;
+}
+footer {
+  background-color: #222f3e;
+  text-align: center;
+}
+footer img {
+  padding-block: 60px;
+  width: 10%;
+}
